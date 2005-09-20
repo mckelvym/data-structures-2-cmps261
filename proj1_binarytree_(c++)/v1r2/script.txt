@@ -1,0 +1,67 @@
+IV.2 Test Results
+
+Script started on Tue 20 Sep 2005 12:11:52 PM CDT
+d59.ucs.louisiana.edu% bash
+bash-2.04$ ls -la
+total 646
+drwxr-x---   2 jmm0468  cs2611sv     512 Sep 20 12:11 .
+drwxrwxr-x   3 jmm0468  cs2611sv     512 Sep 16 09:43 ..
+-rwxr-x---   1 jmm0468  cs2611sv  305056 Sep 16 10:32 binarytree
+-rw-r-----   1 jmm0468  cs2611sv    2094 Sep 16 18:25 BinaryTree.cpp
+-rw-r-----   1 jmm0468  cs2611sv     902 Sep 16 10:00 BinaryTree.h
+-rw-r-----   1 jmm0468  cs2611sv    3023 Sep 20 12:11 main.cpp
+-rw-r-----   1 jmm0468  cs2611sv     496 Sep 16 10:33 makefile
+-rw-r-----   1 jmm0468  cs2611sv     485 Sep 16 09:51 Node.h
+-rw-r-----   1 jmm0468  student        0 Sep 20 12:11 script.txt
+bash-2.04$ make
+CC -c main.cpp
+CC -c BinaryTree.cpp
+CC -o main main.o BinaryTree.o
+bash-2.04$ main
+Creating an empty binary tree.
+Is tree1 empty? Yes.
+
+Performing inorder traversal. 
+
+Performing preorder traversal. 
+
+Performing postorder traversal. 
+Press ENTER.
+
+
+Creating a non-empty binary tree.
+Is tree2 empty? No.
+Press ENTER.
+
+
+Creating a binary tree with only one node.
+
+Performing inorder traversal. 
+3 
+Performing preorder traversal. 
+3 
+Performing postorder traversal. 
+3 
+Press ENTER.
+
+
+Creating a populated binary tree.
+       root
+      /    \
+    l1      r1
+   /  \    /  \
+ll2  lr2  rl2  rr2
+
+Is the tree empty? No.
+
+Performing inorder traversal. 
+ll2 l1 lr2 root rl2 r1 rl2 
+Performing preorder traversal. 
+root l1 ll2 lr2 r1 rl2 rl2 
+Performing postorder traversal. 
+ll2 lr2 l1 rl2 rl2 r1 root 
+Press ENTER.
+
+bash-2.04$ exit
+^D^Dd59.ucs.louisiana.edu% 
+script done on Tue 20 Sep 2005 12:12:53 PM CDT
