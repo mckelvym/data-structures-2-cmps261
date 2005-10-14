@@ -1,0 +1,78 @@
+IV.2 Test Results
+Script started on Mon Oct 17 15:01:55 2005
+
+d1.ucs.louisiana.edu% bash
+bash-2.04$ make
+CC -c main.cpp
+CC -c minHeap.cpp
+CC -o main main.o minHeap.o
+bash-2.04$ main
+Creating a minHeap object with a size of 10.
+Inserting the following elements into the heap:
+
+ 1 2 3 4 5 6 7 8 9 10
+
+Removing all elements from the heap: 
+
+ 1 2 3 4 5 6 7 8 9 10
+Press ENTER.
+
+---------------------------
+Creating a minHeap object with a size of 10.
+Inserting the following elements into the heap:
+
+ 10 9 8 7 6 5 4 3 2 1
+
+Removing all elements from the heap: 
+
+ 1 2 3 4 5 6 7 8 9 10
+Press ENTER.
+
+---------------------------
+Creating a minHeap object with a size of 10.
+Inserting the following elements into the heap:
+
+ 3 4 2 1 5 7 6 9 8 10
+
+Removing all elements from the heap: 
+
+ 1 2 3 4 5 6 7 8 9 10
+Press ENTER.
+
+---------------------------
+Creating a minHeap object with a size of 10.
+Inserting the following elements into the heap:
+
+ 5 4 3 2 1 6 7 8 9 10
+
+Removing all elements from the heap: 
+
+ 1 2 3 4 5 6 7 8 9 10
+Press ENTER.
+
+---------------------------
+Creating a minHeap object with a size of 14.
+Inserting the following elements into the heap:
+
+ 34 21 35 98 32 45 12 87 76 65 52 100 223 9 214
+
+Removing all elements from the heap: 
+
+ 9 12 21 32 34 35 45 52 65 76 87 98 100 223
+Press ENTER.
+
+---------------------------
+Creating a minHeap object with a size of 22.
+Inserting the following elements into the heap:
+
+ 2 7 4 13 1983 -1 76 3 13 27 49 44 550 261 134 543 246 86 5556 2005 58 -4
+
+Removing all elements from the heap: 
+
+ -4 -1 2 3 4 7 13 13 27 44 49 58 76 86 134 246 261 543 550 1983 2005 5556
+Press ENTER.
+
+---------------------------
+bash-2.04$ exit
+d1.ucs.louisiana.edu% ^D
+script done on Mon Oct 17 15:02:40 2005
