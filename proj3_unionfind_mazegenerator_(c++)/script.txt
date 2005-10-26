@@ -1,0 +1,221 @@
+Script started on Tue Nov 01 20:48:52 2005
+d1.ucs.louisiana.edu% bash
+bash-2.04$ ls
+1. requirements.doc    Cell.h                 UnionFind.h
+2. design.doc          MazeGenerator.cpp      main.cpp
+3. implementation.doc  MazeGenerator.h        makefile
+4. verification.doc    UnionFind.cpp          script.txt
+bash-2.04$ make
+CC -c main.cpp
+CC -c MazeGenerator.cpp
+CC -c UnionFind.cpp
+CC -o main main.o MazeGenerator.o UnionFind.o
+bash-2.04$ main
+
+Do you want to create a maze (y/n)? y
+
+How many rows? 4
+
+How many columns? 4
+
+Cell 1: [W] 
+Cell 2: [N] 
+Cell 3: [N] [S] [E] 
+Cell 4: [N] [W] [E] 
+Cell 5: [W] [E] 
+Cell 6: [W] 
+Cell 7: [N] [S] 
+Cell 8: [S] [E] 
+Cell 9: [W] [E] 
+Cell 10: [W] 
+Cell 11: [N] [S] [E] 
+Cell 12: [N] [W] [E] 
+Cell 13: [S] [W] [E] 
+Cell 14: [S] [W] 
+Cell 15: [N] [S] 
+Cell 16: [E] 
+Press ENTER.
+
+---------------------------
+
+Do you want to create a maze (y/n)? y
+
+How many rows? 4
+
+How many columns? 4
+
+Cell 1: [N] [W] 
+Cell 2: [N] [S] [E] 
+Cell 3: [N] [W] 
+Cell 4: [S] [E] 
+Cell 5: [W] 
+Cell 6: [N] [S] 
+Cell 7: [none]
+Cell 8: [N] [S] [E] 
+Cell 9: [W] [E] 
+Cell 10: [N] [S] [W] 
+Cell 11: [none]
+Cell 12: [N] [S] [E] 
+Cell 13: [S] [W] 
+Cell 14: [N] [S] [E] 
+Cell 15: [S] [W] 
+Cell 16: [N] [E] 
+Press ENTER.
+
+---------------------------
+
+Do you want to create a maze (y/n)? y
+
+How many rows? 5
+
+How many columns? 5
+
+Cell 1: [N] [W] [E] 
+Cell 2: [W] 
+Cell 3: [N] [E] 
+Cell 4: [N] [W] 
+Cell 5: [N] [S] [E] 
+Cell 6: [S] [W] 
+Cell 7: [E] 
+Cell 8: [S] [W] [E] 
+Cell 9: [W] 
+Cell 10: [N] [S] [E] 
+Cell 11: [N] [W] [E] 
+Cell 12: [W] 
+Cell 13: [N] [S] 
+Cell 14: [S] 
+Cell 15: [N] [E] 
+Cell 16: [W] [E] 
+Cell 17: [S] [W] [E] 
+Cell 18: [N] [S] [W] 
+Cell 19: [N] 
+Cell 20: [E] 
+Cell 21: [S] [W] 
+Cell 22: [N] [S] 
+Cell 23: [N] 
+Cell 24: [S] [E] 
+Cell 25: [S] [W] [E] 
+Press ENTER.
+
+---------------------------
+
+Do you want to create a maze (y/n)? y
+
+How many rows? 5
+
+How many columns? 5
+
+Cell 1: [N] [W] 
+Cell 2: [N] [S] 
+Cell 3: [N] [E] 
+Cell 4: [N] [W] [E] 
+Cell 5: [W] [E] 
+Cell 6: [S] [W] [E] 
+Cell 7: [N] [W] [E] 
+Cell 8: [W] 
+Cell 9: [S] [E] 
+Cell 10: [W] [E] 
+Cell 11: [N] [W] 
+Cell 12: [E] 
+Cell 13: [W] 
+Cell 14: [N] [S] [E] 
+Cell 15: [W] [E] 
+Cell 16: [W] [E] 
+Cell 17: [S] [W] 
+Cell 18: [S] [E] 
+Cell 19: [N] [W] 
+Cell 20: [S] [E] 
+Cell 21: [S] [W] 
+Cell 22: [N] [S] 
+Cell 23: [N] [S] 
+Cell 24: [S] 
+Cell 25: [N] [E] 
+Press ENTER.
+
+---------------------------
+
+Do you want to create a maze (y/n)? y
+
+How many rows? 5
+
+How many columns? 5
+
+Cell 1: [N] [W] 
+Cell 2: [S] [E] 
+Cell 3: [N] [W] 
+Cell 4: [N] [E] 
+Cell 5: [N] [W] [E] 
+Cell 6: [W] 
+Cell 7: [N] [S] [E] 
+Cell 8: [W] [E] 
+Cell 9: [W] 
+Cell 10: [E] 
+Cell 11: [W] 
+Cell 12: [N] 
+Cell 13: [S] [E] 
+Cell 14: [S] [W] [E] 
+Cell 15: [W] [E] 
+Cell 16: [W] [E] 
+Cell 17: [W] [E] 
+Cell 18: [N] [W] [E] 
+Cell 19: [N] [W] 
+Cell 20: [E] 
+Cell 21: [W] [E] 
+Cell 22: [S] [W] [E] 
+Cell 23: [S] [W] 
+Cell 24: [S] [E] 
+Cell 25: [S] [W] [E] 
+Press ENTER.
+
+---------------------------
+
+Do you want to create a maze (y/n)? y
+
+How many rows? 6
+
+How many columns? 6
+
+Cell 1: [N] [W] [E] 
+Cell 2: [N] [W] [E] 
+Cell 3: [W] 
+Cell 4: [N] [S] 
+Cell 5: [N] 
+Cell 6: [N] [E] 
+Cell 7: [S] [W] 
+Cell 8: [E] 
+Cell 9: [W] [E] 
+Cell 10: [N] [W] 
+Cell 11: [S] [E] 
+Cell 12: [S] [W] [E] 
+Cell 13: [N] [W] [E] 
+Cell 14: [W] 
+Cell 15: [S] [E] 
+Cell 16: [W] 
+Cell 17: [N] [S] [E] 
+Cell 18: [N] [W] [E] 
+Cell 19: [W] [E] 
+Cell 20: [W] [E] 
+Cell 21: [N] [S] [W] 
+Cell 22: [none]
+Cell 23: [N] [S] 
+Cell 24: [E] 
+Cell 25: [W] 
+Cell 26: [S] 
+Cell 27: [N] [E] 
+Cell 28: [S] [W] [E] 
+Cell 29: [N] [W] [E] 
+Cell 30: [W] [E] 
+Cell 31: [S] [W] 
+Cell 32: [N] [S] [E] 
+Cell 33: [W] 
+Cell 34: [N] [S] 
+Cell 35: [S] [E] 
+Cell 36: [S] [W] [E] 
+Press ENTER.
+
+---------------------------
+
+Do you want to create a maze (y/n)? n
+bash-2.04$ exit
+d1.ucs.louisiana.edu% ^D
+script done on Tue Nov 01 20:50:42 2005
