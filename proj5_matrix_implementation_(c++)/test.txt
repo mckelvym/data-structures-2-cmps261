@@ -1,0 +1,312 @@
+IV.2 Test Results
+
+Script started on Tue 29 Nov 2005 03:42:59 PM CST
+d1.ucs.louisiana.edu% bash
+bash-2.04$ make clean
+rm -rf *.o SunWS_cache
+bash-2.04$ make
+CC -c main.cpp
+"Matrix.h", line 49: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 59: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 243: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 249: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 255: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 260: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 365: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 374: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 388: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 388: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 409: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 419: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.h", line 419: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"main.cpp", line 44:     Where: While specializing "matrix<T>".
+"main.cpp", line 44:     Where: Specialized in non-template code.
+"Matrix.cpp", line 232: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 252: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 275: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 275: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 310: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 324: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 324: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 358: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 392: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 406: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 438: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 454: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 487: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 501: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 517: Warning (Anachronism): Type names qualified by template parameters require "typename".
+28 Warning(s) detected.
+CC -c Matrix.cpp
+"Matrix.h", line 49: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 59: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 243: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 249: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 255: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 260: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 365: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 374: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 388: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 388: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 409: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 419: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.h", line 419: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 105:     Where: While specializing "matrix<T>".
+"Matrix.cpp", line 105:     Where: Specialized in non-template code.
+"Matrix.cpp", line 232: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 252: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 275: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 275: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 310: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 324: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 324: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 358: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 392: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 406: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 438: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 454: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 487: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 501: Warning (Anachronism): Type names qualified by template parameters require "typename".
+"Matrix.cpp", line 517: Warning (Anachronism): Type names qualified by template parameters require "typename".
+28 Warning(s) detected.
+CC -o main main.o Matrix.o
+bash-2.04$ main
+
+creating a void matrix: m1
+
+creating a matrix with dimensions 4x4: m2
+
+creating a matrix with dimensions 3x3 with initial values of 10: m3
+
+ *** let's test the [] operator ***
+ * for m2 *
+m2[0][0] = 0
+m2[0][1] = 0
+m2[0][2] = 0
+m2[0][3] = 0
+m2[1][0] = 0
+m2[1][1] = 0
+m2[1][2] = 0
+m2[1][3] = 0
+m2[2][0] = 0
+m2[2][1] = 0
+m2[2][2] = 0
+m2[2][3] = 0
+m2[3][0] = 0
+m2[3][1] = 0
+m2[3][2] = 0
+m2[3][3] = 0
+
+ *** let's test the [] operator ***
+ * for m3 *
+m3[0][0] = 10
+m3[0][1] = 10
+m3[0][2] = 10
+m3[1][0] = 10
+m3[1][1] = 10
+m3[1][2] = 10
+m3[2][0] = 10
+m3[2][1] = 10
+m3[2][2] = 10
+
+ *** let's test the at(x, y) function ***
+ * for m2 *
+m2.at(0,0) = 0
+m2.at(0,1) = 0
+m2.at(0,2) = 0
+m2.at(0,3) = 0
+m2.at(1,0) = 0
+m2.at(1,1) = 0
+m2.at(1,2) = 0
+m2.at(1,3) = 0
+m2.at(2,0) = 0
+m2.at(2,1) = 0
+m2.at(2,2) = 0
+m2.at(2,3) = 0
+m2.at(3,0) = 0
+m2.at(3,1) = 0
+m2.at(3,2) = 0
+m2.at(3,3) = 0
+
+ *** let's test the at(x, y) function ***
+ * for m3 *
+m3.at(0,0) = 10
+m3.at(0,1) = 10
+m3.at(0,2) = 10
+m3.at(1,0) = 10
+m3.at(1,1) = 10
+m3.at(1,2) = 10
+m3.at(2,0) = 10
+m3.at(2,1) = 10
+m3.at(2,2) = 10
+
+ *** let's test the back() and front() functions ***
+m2.front() = 0 m2.back() = 0
+m3.front() = 10 m3.back() = 10
+
+ *** let's test the empty() function ***
+m2.empty() = 0
+m3.emtpy() = 0
+
+ *** now we will test the begin()/end() iterator functions ***
+*m2.begin() = 0
+*m2.end()   = 0
+*m3.begin() = 10
+*m3.end()   = 10
+
+ *** now we will test the assign() & begin() functions ***
+
+m2.assign(1, m2.begin()+1, m2.begin()+3);
+*(m2.begin() + 0) = 0
+*(m2.begin() + 1) = 1
+*(m2.begin() + 2) = 1
+*(m2.begin() + 3) = 1
+*(m2.begin() + 4) = 0
+*(m2.begin() + 5) = 0
+*(m2.begin() + 6) = 0
+*(m2.begin() + 7) = 0
+*(m2.begin() + 8) = 0
+*(m2.begin() + 9) = 0
+*(m2.begin() + 10) = 0
+*(m2.begin() + 11) = 0
+*(m2.begin() + 12) = 0
+*(m2.begin() + 13) = 0
+*(m2.begin() + 14) = 0
+*(m2.begin() + 15) = 0
+*(m2.begin() + 16) = 0
+
+m3.assign(15, m3.begin(), m3.begin());
+*(m3.begin() + 0) = 15
+*(m3.begin() + 1) = 10
+*(m3.begin() + 2) = 10
+*(m3.begin() + 3) = 10
+*(m3.begin() + 4) = 10
+*(m3.begin() + 5) = 10
+*(m3.begin() + 6) = 10
+*(m3.begin() + 7) = 10
+*(m3.begin() + 8) = 10
+*(m3.begin() + 9) = 10
+
+ *** now we will test the assign() & end() functions ***
+
+m2.assign(2, m2.end() - 3, m2.end() - 2);
+*(m2.end() - 16) = 0
+*(m2.end() - 15) = 0
+*(m2.end() - 14) = 1
+*(m2.end() - 13) = 1
+*(m2.end() - 12) = 1
+*(m2.end() - 11) = 0
+*(m2.end() - 10) = 0
+*(m2.end() - 9) = 0
+*(m2.end() - 8) = 0
+*(m2.end() - 7) = 0
+*(m2.end() - 6) = 0
+*(m2.end() - 5) = 0
+*(m2.end() - 4) = 0
+*(m2.end() - 3) = 2
+*(m2.end() - 2) = 2
+*(m2.end() - 1) = 0
+*(m2.end() - 0) = 0
+
+m3.assign(25, m3.end() - 1, m3.end() - 1);
+*(m3.end() - 9) = 15
+*(m3.end() - 8) = 15
+*(m3.end() - 7) = 10
+*(m3.end() - 6) = 10
+*(m3.end() - 5) = 10
+*(m3.end() - 4) = 10
+*(m3.end() - 3) = 10
+*(m3.end() - 2) = 10
+*(m3.end() - 1) = 25
+*(m3.end() - 0) = 10
+
+ *** let's erase one cell in m2 ***
+m2.erase(m2.begin() + 1)
+m2[0][0] = 0
+m2[0][1] = 1
+m2[0][2] = 1
+m2[0][3] = 0
+m2[1][0] = 0
+m2[1][1] = 0
+m2[1][2] = 0
+m2[1][3] = 0
+m2[2][0] = 0
+m2[2][1] = 0
+m2[2][2] = 0
+m2[2][3] = 0
+m2[3][0] = 2
+m2[3][1] = 2
+m2[3][2] = 0
+m2[3][3] = 0
+
+ *** let's erase a few cells in m3 ***
+m3.erase(m3.begin(), m3.begin() + 1)
+m3[0][0] = 10
+m3[0][1] = 0
+m3[0][2] = 8
+m3[1][0] = 10
+m3[1][1] = 10
+m3[1][2] = 10
+m3[2][0] = 10
+m3[2][1] = 25
+m3[2][2] = 10
+
+Clear all Elements in m2; m3
+
+ *** let's test the empty() function again ***
+m2.empty() = 1
+m3.emtpy() = 1
+
+
+We're done.
+bash-2.04$ exit
+d1.ucs.louisiana.edu% ^D
+script done on Tue 29 Nov 2005 03:43:34 PM CST
